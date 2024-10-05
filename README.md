@@ -10,14 +10,20 @@ The Hand Gesture Control Tool is a real-time application that allows users to in
 - **Keyboard Control**: Maps gestures to keyboard actions, such as moving the cursor, clicking, and scrolling.
 - **Customizable Controls**: Allows users to modify the keyboard mappings for gestures according to their preferences.
 
-## Technologies Used
-- Python 3.12.6
-- OpenCV
-- MediaPipe
-- PyAutoGUI
+## Technologies Used and their versions:
+- Python (`python.exe` - Python 3.12.6)
+- OpenCV (`opencv-python` - 4.10.0.84)
+- MediaPipe (`mediapipe` - 0.10.14)
+- PyAutoGUI (`pyautogui` - 0.9.54)
 
 ## Getting Started
 To run the application locally:
+   - Create Virtual Environment
+   - `python -m venv venv`
+   - Activate virtual environment `.\venv\Scripts\activate`
+   - Virtual Environment is Started!
+   - Install python site-packages `pip install -r /path/to/requirements.txt`
+   - run `python mediaplayer.py runserver`
 
 1. **Clone the repository:**
    ```bash
